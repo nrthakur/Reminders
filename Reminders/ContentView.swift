@@ -58,7 +58,7 @@ struct ContentView: View {
 }
 
 struct ReminderItem: Codable, Identifiable {
-    let id = UUID()
+    var id = UUID()
     let Reminder: String
 }
 
